@@ -1,0 +1,70 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.square {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+     
+    /*standardowy zapis  
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+    */ 
+    
+    /* albo jedna właściwość albo wszystkie za pomocą all lub po przecinku */
+    transition: background-color .5s ease-in;
+    width: Is linear;
+}
+
+.square:hover {
+    background-color: blue;
+    width: 400px;
+}
+
+img {
+    height: 100px;
+    transition: all .5s;
+    width: Is linear;
+}
+
+img:hover {
+    height: 200px;
+}
+
+/* zadanie na szkoleniu */
+#box1 {
+    background-color: red;
+    transition: width .5s;
+    
+}
+
+#box2 {
+    background-color: blue;
+    transition: height .5s;
+}
+
+#box3 {
+    background-color: green;
+    transition: all .5s;
+}
+
+#box1:hover {
+    width: 300px;
+}
+
+
+#box2:hover {
+    height: 300px;
+}
+
+#box3:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+

@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+    height: 3000px;
+}
+
+.background {
+    height: 600px;
+    margin: auto;
+    /* background-image: url(../img/truskawka.jpg);
+    background-repeat: no-repeat; 
+    background-position: top; */
+    /* background-attachment: fixed; */
+    
+    /* obrazek w tle będzie chciał wypełnić cały kontener - to co wyjdzie poza kontener zostanie ucięte */
+    /*background-size: cover;*/
+    
+    /* cały element przykryty jest obrazkiem z tła */
+    /*background-size: contain;*/
+    
+    /* zapis dla background w jednej linii - przy tym zapisie nie może być podany background-size */
+    background: url(../img/truskawka.jpg) center no-repeat;
+}
