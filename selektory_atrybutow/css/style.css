@@ -1,0 +1,31 @@
+a {
+    font-size: 3em;
+}
+
+/* działa tylko na link z atrybutem tytle */
+a[title] {
+    color: red;
+}
+
+/* działa tylko dla linka z atrybutem tytle o tekście link 5 */
+a[title="Link 5"] {
+    color: green;
+}
+
+/* wszystkie ze słowem link w tytule */
+a[title~="Link"] {
+    color: yellow;
+}
+
+/* wszystkie linki z końcówką pl */
+a[href*=".pl"] {
+    color: orange;
+}
+/* wszystkie które zaczynają się od litery T są fioletowe */
+a[title^="T"] {
+    color: blueviolet;
+}
+
+/* wszystkie linki które kończą się com i żadne inne */
+a[href$=".com"] {
+    color: palegreen;
