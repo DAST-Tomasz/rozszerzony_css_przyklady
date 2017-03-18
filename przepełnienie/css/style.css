@@ -1,0 +1,27 @@
+body {
+ 
+    width: 600px;
+}
+
+p {
+    width: 50%;
+    float: left;
+
+    /* ucięcie paragrafu */
+    overflow: hidden;
+}
+
+p:nth-child(2) {
+    /* ucięcie paragrafu */
+    overflow: scroll;
+}
+
+p:nth-child(3) {
+    /* ucięcie paragrafu */
+    overflow: auto;
+}
+
+p:nth-child(4) {
+    /* ucięcie paragrafu */
+    overflow: visible;
+}

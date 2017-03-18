@@ -1,0 +1,28 @@
+/* w praktyce dla wszystkich bloków ustala się poniższą wartość box-sizing */
+* {
+box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.col1-2 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    border: 20px solid black;
+    box-sizing: border-box;
+    /* poniższy margin nie jest brany pod uwagę przez box-sizing */
+    /* margin: 10px; */
+}
+
+.col1-2:first-child {
+    background-color: beige;
+}
+
+.col1-2:last-child {
+    background-color: darksalmon;
+}
+
